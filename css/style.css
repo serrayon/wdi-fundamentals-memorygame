@@ -4,7 +4,6 @@ body {
 text-align: center;
 margin: 0;
 
-
 }
 header {
 	background-color: #F15B31; 
@@ -73,7 +72,9 @@ font-family: 'Droid Serif', serif;
 line-height: 26px;
 font-size: 18px;
 }
-
+.info {
+	padding: 10px 0px 10px 0px;
+}
 footer {
 	align: center;
 	padding: 0px 20px 0px 20px;
