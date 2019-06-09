@@ -24,9 +24,11 @@ var cardsInPlay = [];
 
 //steps to check for match
 function checkForMatch() {
-	if (cardsInPlay[0] === cardsInPlay [1]){
+	if (cardsInPlay[0] === cardsInPlay[1]) 
+	{
 		console.log('You found a match!');
-	}	else{
+	}	else 
+	{
 		console.log('Sorry, try again.');
 	}
 };
@@ -47,13 +49,10 @@ function flipCard() {
 		checkForMatch();
 		if (cardsInPlay[0] === cardsInPlay[1])
 			alert('You found a match!');
-		
 		else{
 			alert('Sorry, try again.');
-			
 		}
-	
-}
+	}
 };
 
 //for loop runs through cards array
@@ -76,6 +75,10 @@ function myButton() {
 	location.reload();
 };
 
+
+ 
+
+ 
 
 checkForMatch();
 createBoard();
